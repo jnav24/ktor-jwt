@@ -19,5 +19,5 @@ fun Application.module() {
 
     configureSerialization()
     configureSecurity(jwtService)
-    configureRouting(userService)
+    configureRouting(userService, jwtService)
 }
